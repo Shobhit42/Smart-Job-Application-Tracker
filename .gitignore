@@ -1,0 +1,50 @@
+ 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+
+# .NET
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Environment files (NEVER push these)
+.env
+.env.local
+appsettings.Development.json
+appsettings.Production.json
+
+# Rider IDE
+.idea/
+
+# VS Code
+.vscode/
+
+# Node (for frontend later)
+node_modules/
+npm-debug.log
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hangfire (local DB files)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+logs/
